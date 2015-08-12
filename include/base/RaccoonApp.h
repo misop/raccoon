@@ -11,7 +11,7 @@ InputParameters validParams<RaccoonApp>();
 class RaccoonApp : public MooseApp
 {
 public:
-  RaccoonApp(const std::string & name, InputParameters parameters);
+  RaccoonApp(InputParameters parameters);
   virtual ~RaccoonApp();
 
   static void registerApps();
